@@ -1,0 +1,625 @@
+/* Navbar style */
+#wlogo{
+  box-shadow: 0 6px 9px 0 rgba(50, 50, 50, .3);
+  
+}
+#wlogo li:hover{
+  color: #25D366;
+}
+#wlogo li{
+  display: block;
+}
+#wlogo i{
+  display: none;
+}
+.dropdown{
+  display: none;
+}
+.dropdown-menu.show{
+  display: block;
+  width: 100vw;
+  height: 8rem;
+  border: none;
+  position: absolute;
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  transform: translate3d(-340.5px, 39.5px, 0px);
+}
+
+.dropdown-toggle::after{
+ display: none;
+}
+/* mid style */
+#mid #di{
+  box-shadow: 0 6px 9px 0 rgba(50, 50, 50, .3);
+}
+#tutorial{
+  height: calc(140vh - 70vh );
+}
+#tutorial p:hover{
+  text-decoration: underline;
+}
+
+
+
+/* Nav styling */
+#profilebtn{
+  background: transparent;
+  border: transparent;
+  font-size: 2rem;
+}
+.offcanvas.show, .offcanvas.showing {
+  visibility: visible;
+  width: 40%;
+}
+#profiletab{
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom: transparent;
+}
+#dropdo{
+  display: block;
+}
+#navdropa{
+  background: transparent;
+  border: transparent;
+  margin-top: -5px;
+}
+#dropdo ul{
+  background-color: transparent;
+}
+#dropdo li{
+  margin-left: -123px;
+  background-color: white;
+  width: 14vw;
+  border-radius: 1px;
+  border: 1px solid white;
+}
+#dropdo .dropdown-menu.show {
+  position: absolute;
+  inset: 0px auto auto -156px;
+  margin: 0px;
+  transform: translate3d(-6px, 48.3333px, 0px);
+  width: 17vw;
+}
+#proprofile{
+  width: 100%;
+  height: 4rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: white;
+  border-width: 90%;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+#proprofile:hover{
+  background-color: #202C33;
+}
+#searchicon{
+  color: white;
+  margin-top: -29px;
+  font-size: medium;
+  font-weight: 400;
+  margin-left: 14px;
+}
+#mobdisplay{
+  display: none;
+}
+#newtab2{
+  display: none;
+}
+.offcanvas-header{
+  background-color: #222E35;
+  color: white;
+}
+.offcanvas-body{
+  background-color: #222E35;
+  color: white;
+}
+
+
+/* part2 styling */
+#p2{
+  width: calc(100% - 40% );
+  border: 1.5px solid black;
+  border-bottom: transparent;
+  position: relative;
+scroll-behavior: smooth;
+  border-top: transparent;
+  border-right: transparent;
+  background-image: url('./Mainbody/iage/whatsapp\ logo.png');
+ background-size: contain;
+ background-repeat: no-repeat;
+ align-items: center;
+}
+
+#p2c1{
+  border: 1px solid black;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+}
+#p2video{
+  border-bottom: transparent;
+  border-left: transparent;
+  border-top: transparent;
+  border-right-color: burlywood;
+}
+#p2chat{
+  border: 1px solid black;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+dialog{
+  padding: 0;
+  margin: auto;
+  width: 60vw;
+  height: 80vh;
+  margin-left: 514px;
+ background-color: #222E35;
+ color: white;
+ 
+}
+#p2chat1{
+  display: none;
+}
+#p2m{
+  display: none;
+}
+
+/* search bar style */
+
+.search-container {
+  position: relative;
+  width: 300px;
+  margin: 13px auto;
+}
+
+#ngm{
+  display: none;
+}
+#scinput2{
+  width: 39vw;
+  height: 2vw;
+  margin-left: -103px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 7px;
+  background-color: #222E35;
+}
+
+#scinput1{
+  padding: 5px;
+  font-size: 14px;
+  width: 40vw;
+  color: white;
+  margin-left: -41%;
+  margin-top: -19px;
+  border: 1px solid #25D366;
+  border-radius: 7px;
+  box-sizing: border-box;
+  background-color: #222E35; 
+}
+input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+  width: 75vw;
+  margin-top: -19px;
+  border: 1px solid #25D366;
+  border-radius: 7px;
+  margin-left: -26vw;
+  box-sizing: border-box;
+  background-color: #222E35;
+}
+#oc1{
+  position: absolute;
+  top: 40px;
+  width: 40vw;
+  margin-left: -9vw;
+  color: black;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: white;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.options-container {
+  position: absolute;
+  top: 40px;
+  width: 70vw;
+  margin-left: -23vw;
+  color: black;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: white;
+  max-height: 150px;
+  overflow-y: auto;
+}
+#p2md{
+  display: block;
+}
+.option {
+  padding: 10px;
+  cursor: pointer;
+}
+#ngd{
+  display: block;
+}
+#ngm{
+  display: none;
+}
+.option:hover {
+  background-color: #f1f1f1;
+}
+
+.search-container{
+  width: 23vw;
+  position: relative;
+  margin: 13px auto;
+}
+#p2md1{
+  display: block;
+}
+#ncinput input{
+  width: 70%;
+  background-color: #17191E;
+  margin-left: 8vw;
+}
+#ncinpu2 input{
+  width: 85%;
+  margin-left: 1.4vw;
+  background-color: #17191E;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+#savebtn{
+  background-color: transparent;
+  color: white;
+}
+#savebtn:hover{
+  filter: brightness(.8);
+  color: #25D366;
+}
+#ncm{
+  display: none;
+}
+#ncd{
+  display: block;
+}
+#p2md2w{
+  display: block;
+}
+#p2mmw{
+  display: none;
+}
+#wlogo{
+  position: relative;
+  background-color: white;
+}
+#diii{
+  background-color: #00A884;
+}
+#ncford{
+  display: block;
+}
+#cborder{
+  border: 1px solid #202C33;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+#iab h5{
+  font-size: 1.2em;
+  margin-left: 1.5vw;
+}
+#h1up{
+  display: block;
+  background-color: #00A884;
+  width: 39.3vw;
+  height: 100vh;
+  margin-left: -39.5vw;
+  color: white;
+}
+#statusup{
+  border: 1px  solid #ACB6C9;
+  border-left: transparent;
+  border-right: transparent;
+}
+#statusup1{
+  border: 1px solid #AEB6C9;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+}
+#statusimg{
+  border: 2px solid #00A884;
+}
+#upd{
+  filter: opacity(1);
+}
+#upd:hover{
+  filter: opacity(.9);
+}
+#scrollablediv {
+  width: 100%;
+  height: 83vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+
+
+@media (max-width:600px){
+  #wlogo{
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    background-color: white;
+  }
+ #ncford{
+  display: none;
+ }
+  #wlogo img{
+    width: 7rem;
+    height: 2rem;
+  }
+  #wlogo li{
+    display: none;
+  }
+  #dropli li{
+    display: block;
+    border: transparent;
+    text-align: center;
+    color: #25D366;
+  }
+  #ncm{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -100vw;
+  }
+  #ncm #savebtn{
+    margin-left: 38vw;
+  }
+  #ncinput{
+    display: flex;
+    flex-direction: column;
+  }
+  #ncinput input{
+    width: 100%;
+  }
+  #ioiocontact{
+    margin-left: 40vw;
+  }
+  #ncinp1{
+    
+    margin-left: 9vw;
+    height: 7vh;
+  }
+  #p2md2w{
+    display: none;
+  }
+  .p2mmw{
+    display: block;
+    margin-left: -99vw;
+    width: 100vw;
+  }
+ 
+  #ncm1{
+    width: 100vw;
+    height: auto;
+  }
+  #ncd{
+    display: none;
+  }
+  #wlogo i{
+    display: block;
+  }
+  #mid{
+    width: 100vw;
+    height: 50vh;
+  }
+  .dropdown{
+    display: block;
+  }
+  #mid #di{
+    margin-left: 2rem;
+    width: 83%;
+    height: 100%;
+  }
+  #tutorial{
+    height: 50vh;
+  }
+  #scinput2{
+    width: 90vw;
+    height: 2vh;
+    margin-left: -154px;
+    color: white;
+  }
+  #oc1{
+    position: absolute;
+    top: 40px;
+    border-radius: 13px;
+    width: 87vw;
+    margin-left: -34vw;
+    color: black;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: white;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+#diii{
+  height: 100vh;
+  width: 100vw;
+  background-color: #00A884;
+}
+ #tutorial{
+  width: 100%;
+  height: 30vh;
+ }
+ #vid{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+ }
+
+ /* main page styling */
+ #navjs{
+  width: 100vw;
+  height: 100%;
+ }
+ #p11{
+  width: 100%;
+  height: 100%;
+ }
+ #p2{
+  display: block;
+ }
+ #p2m{
+  display: block;
+  width: 100vw;
+  margin-left: 0;
+  height: fit-content;
+ }
+ #p2md{
+  display: none;
+ }
+ #scinput1{
+  display: none;
+ }
+ #ngd{
+  display: none;
+ }
+ #profiletab{
+  width: 100%;
+  height: 90px;
+ }
+ #profilebtn{
+  font-size: 3rem;
+ }
+ .offcanvas.show{
+  width: 100vw;
+  height: auto;
+ }
+ #ngm{
+  display: block;
+ }
+ 
+ #functpro{
+  display: none;
+ }
+ #dropdo li{
+  margin-left: 0px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  border-radius: 1px;
+  border: 1px solid white;
+}
+#dropdo li a{
+  color: white;
+  font-size: small;
+}
+#newtab2{
+  display: block;
+  margin-top: 0px;
+}
+#filter{
+  display: block;
+  margin-left: 384px;
+}
+#chatp{
+  width: 100%;
+  height: 5rem;
+}
+#c1{
+  text-align: start;
+  margin-top: 12px;
+  margin-left: 3px;
+  width: 16%;
+}
+#p2md1{
+  display: none;
+}
+#c2{
+  width: 70%;
+  text-align: center;
+  margin-left: 80px;
+  height: auto;
+}
+
+#c2 p{
+  width: 100%;
+ margin-top: 12px;
+ padding: 1px 1px;
+}
+#c3{
+  width: 14%;
+  height: auto;
+}
+#proid{
+  aspect-ratio: 1/1;
+  margin-top: -8px;
+}
+
+
+/* part 2 styling */
+#p2{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+  height: auto;
+  background-color: #25D366;
+}
+
+#p2chat{
+  width: 100%;
+  height: 6rem;
+  display: none;
+}
+#p2chat1{
+ 
+  width: 100vw;
+  display: block;
+  color: white;
+  height: 6rem;
+  margin-left: -100vw;
+}
+#p2c1{
+  width: 100%;
+  height: 6rem;
+}
+#p2c11{
+  width: max-content;
+  height: fit-content;
+}
+#p2c12{
+  width: max-content;
+  height: auto;
+}
+#vscrach{
+  margin-top: 12px;
+}
+
+dialog{
+  width: 100%;
+  height: fit-content;
+  margin-top: 95px;
+  margin-left: 30px;
+  width: 84vw;
+}
+#p2c2 img{
+  width: 5rem;
+  height: 5rem;
+  margin-left: 9rem;
+}
+#close{
+margin-left: 9rem;
+background-color: #222E35;
+}
+}
